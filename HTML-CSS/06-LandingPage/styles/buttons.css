@@ -18,6 +18,9 @@
 
 .btn:hover{
   background: var(--brand-gradient);
+  color: var(--background-color);
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
 }
 
 .btn-sm{
@@ -52,11 +55,18 @@
   &::after{
     content: attr(aria-label);
 
-    background: var(--brand-gradient);
-    -webkit-background-clip:text;
-    background-clip: text;
-    color:transparent;
+    display: block;
+    font: inherit;
+    color: var(--text-color-primary);
     position: relative;
     z-index: 1;
+  }
+
+  &:hover::after{
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
   }
 }
