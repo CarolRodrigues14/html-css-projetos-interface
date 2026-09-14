@@ -10,16 +10,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="flex gap-1">
-    <a href="#" class="btn btn-sm">Label</a>
-    <span href="#" class="btn btn-md">Label</span>
-    <button href="#" class="btn btn-lg">Label</button>
-  </div>
-
-  <div class="flex gap-1">
-    <a aria-label="Label" href="#" class="btn btn-sm"></a>
-    <span aria-label="Label"  href="#" class="btn btn-md"></span>
-    <button aria-label="Label" href="#" class="btn btn-lg"></button>
-  </div>
+  <header class="container padding-y-base">
+    <nav class="flex gap-1 "  >
+      <a href="#"><img src="assets/Zingen.svg" alt=""></a>
+      <ul role="list" class="flex gap-1">
+        <li class="desktop-only" ><a href="#">Conheça o app</a></li>
+        <li class="desktop-only" ><a href="#">Funcionalidades</a></li>
+        <li class="desktop-only"><a href="#">Planos e preços</a></li>
+        <li class="btn btn-md"><a href="#">Baixar agora</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+      <img src="assets/img-hero.svg" alt="" no-repeat>
+      <div class="hero-info">
+        <h1>Quem canta seus males espanta</h1>
+        <h2>Cantar nunca foi tão fácil</h2>
+      </div>
+      <div class="hero-buttons flex gap-1">
+        <a class="btn btn-md " aria-label="" href="#">Ver planos</a>
+        <a class="btn btn-md" href="#">Baixar agora</a>
+      </div>
+  </section>
 </body>
 </html>

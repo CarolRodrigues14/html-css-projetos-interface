@@ -66,3 +66,39 @@ a:hover{
 ul[role="list"]{
   list-style: none;
 }
+
+header ul{
+  margin-left: auto;
+  font: var(--paragraph);
+  color: var(--text-color-secondary);
+}
+
+.hero{
+  padding: 4rem 1.5rem;
+  & img{
+    width: 12.87rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+
+  }
+
+  & .hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    
+    margin-bottom: 2rem;
+  }
+
+  & h1{
+    font:var(--heading1);
+    color: var(--text-color-primary);
+  }
+  & h2{
+    font:var(--heading2);
+    color: var(--text-color-secondary);
+  }
+}
+
