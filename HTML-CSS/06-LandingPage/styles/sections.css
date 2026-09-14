@@ -1,0 +1,33 @@
+.img-mobile{
+  background: url(../assets/bg-hero-mobile.svg) top/cover;
+  margin-top:5.21rem ;
+}
+
+section{
+  & header{
+
+    & strong{
+      color: var(--brand-color-primary);
+      font:var(--btn-sm);
+      margin-bottom: .5rem;
+    }
+
+    & h2{
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+    }
+
+    & p{
+
+    }
+  }
+
+  
+  
+}
+
+@media (width >=80em){
+  .img-mobile{
+    display: none;
+  }
+}

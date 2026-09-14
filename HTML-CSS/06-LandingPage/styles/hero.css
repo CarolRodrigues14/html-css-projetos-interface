@@ -1,10 +1,9 @@
 .hero{
   padding: 4rem 1.5rem;
   & img[src*="music"]{
+    display: block;
     width: 12.87rem;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-
+    margin: 0 auto 1rem;
   }
 
   & .hero-info{
@@ -22,7 +21,8 @@
     font:var(--heading1);
     color: var(--text-color-primary);
   }
-  & h2{
+  & .p-heading{
+    margin-top: 2px;
     font:var(--heading2);
     color: var(--text-color-secondary);
   }
