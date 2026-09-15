@@ -87,6 +87,19 @@
     
   }
 
+  @media (max-width:79.99em){
+    & .cards{
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 1.5rem;
+    }
+
+    & .card,
+    & .premium{
+      width: min(100%, 25rem);
+    }
+  }
+
 
   @media (width>=80em){
 
