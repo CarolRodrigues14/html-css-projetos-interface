@@ -10,18 +10,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header class="container padding-y-base">
     <nav class="flex gap-1 "  >
       <a href="#"><img src="assets/Zingen.svg" alt=""></a>
       <ul role="list" class="flex gap-1">
-        <li class="desktop-only" ><a href="#">Conheça o app</a></li>
-        <li class="desktop-only" ><a href="#">Funcionalidades</a></li>
-        <li class="desktop-only"><a href="#">Planos e preços</a></li>
-        <li><a class="btn btn-md" href="#">Baixar agora</a></li>
+        <li class="desktop-only" ><a href="#about">Conheça o app</a></li>
+        <li class="desktop-only" ><a href="#features">Funcionalidades</a></li>
+        <li class="desktop-only"><a href="#priecing">Planos e preços</a></li>
+        <li><a class="btn btn-md" href="#download">Baixar agora</a></li>
       </ul>
     </nav>
   </header>
-  <section class="hero">
+
+  <section id="hero">
       <img src="assets/img-music.svg" alt="" no-repeat>
       <div class="hero-info">
         <h1>Quem canta seus males espanta</h1>
@@ -32,13 +34,14 @@
         <a class="btn btn-md" href="#">Baixar agora</a>
       </div>
   </section>
+
   <section class="img-mobile">
     <div class="container">
       <img src="assets/App mockups.png" alt="">
     </div>
   </section>
 
-  <section class="about">
+  <section id="about">
     <div class="container even-columns padding-y-xl items-center">
       <div>
         <header>
@@ -52,7 +55,8 @@
       </div>
     </div>
   </section>
-  <section class="features">
+
+  <section id="features">
     <div class="cards container padding-y-xl grid gap-1">
       <div class="card padding-y-lg padding-x-card">
         <img src="assets/icons/MagicWand.svg" alt="">
@@ -92,6 +96,63 @@
         </div>
         <img class="desktop-only" src="assets/Tela 3.png" alt="">
       </div>
+    </div>
+  </section>
+
+  <section id="priecing">
+    <div class="container padding-y-xl">
+      
+      <header>
+        <strong>Planos e preços</strong>
+        <h2>Assine e tenha acesso ilimitado a todas as funcionalidades</h2>
+      </header>
+
+      <div class="cards even-columns items-center">
+
+        <div class="card padding-x-card padding-y-lg">
+          <h3>Básico</h3>
+          <p>Baixe o app e comece a cantar agora mesmo!</p>
+          <zin-priecing>Grátis</zin-priecing>
+          <a class="btn btn-md" href="#download" aria-label="Baixar agora"></a>
+          <div class="separator"></div>
+          <ul class="grid gap-1" role="list">
+            <li>Com anúncios</li>
+            <li>Até 5 músicas por dia</li>
+            <li>Cante apenas as músicas disponíveis no plano gratuito</li>
+          </ul>
+        </div>
+
+        <div class="premium">
+          <div class="card padding-x-card padding-y-lg">
+          <span>1 mês grátis</span>
+          <h3>Premium</h3>
+          <p>Ideal para quem já cansou de passar vergonha no Karaokê</p>
+          <zin-priecing>R$ 24,90 <small>/mês</small></zin-priecing>
+          <a class="btn btn-md" href="#download">Experimente de graça</a>
+          <div class="separator"></div>
+          <ul class="grid gap-1" role="list">
+            <li>Sem interrupção de anúncios</li>
+            <li>Cante quantas músicas quiser</li>
+            <li>Cante todas as músicas da biblioteca</li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="card padding-x-card padding-y-lg">
+          <h3>Família</h3>
+          <p>Para aquelas famílias que adoram se reunir pra cantar</p>
+          <zin-priecing>R$ 21,90 <small>/mês por pessoa</small></zin-priecing>
+          <a class="btn btn-md" href="#download" aria-label="Assinar agora"></a>
+          <div class="separator"></div>
+          <ul class="grid gap-1" role="list">
+            <li>Sem interrupção de anúncios</li>
+            <li>Cante quantas músicas quiser</li>
+            <li>Cante todas as músicas da biblioteca</li>
+          </ul>
+          <small>Mínimo de 4 pessoas no plano família.</small>
+        </div>
+
+    </div>
     </div>
   </section>
 </body>

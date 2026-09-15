@@ -1,4 +1,4 @@
-.hero{
+#hero{
   padding: 4rem 1.5rem;
   & img[src*="music"]{
     display: block;
@@ -29,7 +29,7 @@
 }
 
 @media (width >= 80em){
-  .hero{
+  #hero{
     background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center / contain;
 
     & img[src*="music"]{
