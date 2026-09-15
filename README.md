@@ -20,7 +20,7 @@ Este repositório reúne todos os exercícios e projetos desenvolvidos durante a
 - ✅ [Portfólio Dev](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/03-PortfolioDev/)
 - ✅ [Formulário de Matrícula](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/04-FormularioMatricula/)
 - ✅ [Formulário de Convite](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/05-FormularioConvite/)
-- ✅ Responsividade
+- ✅ [Responsividade](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/06-LandingPage/)
 - ✅ Animações
 
 ### JavaScript
