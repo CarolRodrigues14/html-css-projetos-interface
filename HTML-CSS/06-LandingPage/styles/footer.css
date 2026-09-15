@@ -27,6 +27,12 @@ footer{
     align-content: start;
   }
 
+  & nav.even-columns > ul{
+    display: grid;
+    justify-items: start;
+    align-content: start;
+  }
+
   & nav.even-columns > ul:last-child{
     gap: 1rem;
   }
@@ -94,6 +100,7 @@ footer{
 
     & nav.even-columns > ul:last-child{
       gap: 0.1rem;
+      justify-items: start;
     }
   }
 }
