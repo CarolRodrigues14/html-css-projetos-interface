@@ -28,7 +28,7 @@ footer{
   }
 
   & nav.even-columns > ul:last-child{
-    gap: 0.125rem;
+    gap: 1rem;
   }
 
   & .title{
@@ -93,7 +93,7 @@ footer{
     }
 
     & nav.even-columns > ul:last-child{
-      gap: 0.001rem;
+      gap: 0.1rem;
     }
   }
 }
