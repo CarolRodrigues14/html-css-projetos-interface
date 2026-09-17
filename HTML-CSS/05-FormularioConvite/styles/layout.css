@@ -1,25 +1,27 @@
+html,
+body{
+  height: 100%;
+}
+
 .pg{
-  display:grid;
-  grid-template-columns: 25rem 58rem;
-  gap: 1.25rem;
-  padding: 1.25rem ;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  min-height: 100%;
+  overflow: visible;
 }
 
 aside{
   width: 100%;
-  height: 100%;
-  margin-left: auto;
-
+  overflow: visible;
   border-radius: 0.625rem;
-  
 }
 
 .container-aside{
   width: 100%;
-  height: 35rem;
+  height: 14rem;
   overflow: hidden;
   border-radius: 0.625rem;
   position: relative;
@@ -59,18 +61,82 @@ aside{
 
 
 main{
+  min-width: 0;
+  overflow: visible;
+}
+
+body{
   overflow: auto;
 }
 
 .container-main{
-    background-color: var(--shape-body);
-    border-radius: 0.625rem;
-    padding: 5rem 8.135rem;
-    
+  background-color: var(--shape-body);
+  border-radius: 0.625rem;
+  padding: 2rem 1rem;
 
-    & h1{
-      margin-bottom: 2.5rem;
-    }
-
+  & h1{
+    margin-bottom: 2.5rem;
   }
+}
+
+@media (max-width: 79.999em){
+  .container-aside{
+    height: auto;
+    aspect-ratio: 1 / 2;
+  }
+
+  form,
+  fieldset,
+  .input-wrapper,
+  .input-wrapper-row,
+  .input-wrapper-grid,
+  .grid{
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .input-wrapper-row{
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 80em){
+  .pg{
+    grid-template-columns: 25rem 58rem;
+    grid-template-rows: 1fr;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  aside{
+    height: 100%;
+    margin-left: auto;
+    overflow: hidden;
+  }
+
+  body{
+    overflow: hidden;
+  }
+
+  main{
+    min-height: 0;
+    overflow: auto;
+  }
+
+  .container-aside{
+    height: 35rem;
+  }
+
+  .container-main{
+    padding: 5rem 8.135rem;
+  }
+}
 
