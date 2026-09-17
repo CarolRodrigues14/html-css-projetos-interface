@@ -18,7 +18,7 @@ button{
 
   &.btn-secondary{
     margin-left: auto;
-    border: 1px solid var(--text-highlight);
+    border: .0625rem solid var(--text-highlight);
 
       &:hover, &:focus{
         outline: 1.25rem solid var(--surface-secondary);

@@ -9,6 +9,7 @@ body{
   min-height: 100%;
   font-family: var(--font-family);
   color: var(--text-secondary);
+  overflow-x: hidden;
 }
 
 
@@ -16,18 +17,22 @@ body{
 h1{
   font: 600 1.5rem/120% var(--font-family);
   color: var(--text-primary);
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 
 h2{
   font: var(--h2);
   color: var(--text-primary);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 h2 span{
   color: var(--text-highlight);
+}
+
+fieldset{
+  min-width: 0;
 }
 
 input::placeholder, textarea::placeholder, select, option,input[type="date"]{
