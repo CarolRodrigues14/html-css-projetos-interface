@@ -7,3 +7,94 @@
 @import url("projects.css");
 @import url("services.css");
 @import url("contact.css");
+
+@media (max-width: 79.999em) {
+	#container {
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	#hero {
+		min-height: auto;
+		padding: 48px 24px 40px;
+	}
+
+	.hero-info,
+	.hero-profile {
+		width: 100%;
+	}
+
+	.hero-info {
+		margin: 0;
+	}
+
+	.hero-profile {
+		gap: 40px;
+		margin-bottom: 48px;
+	}
+
+	.hero-profile header {
+		text-align: center;
+	}
+
+	#projects header,
+	#services header,
+	#contact header {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: clamp(2rem, 8vw, 3.5rem);
+	}
+
+	.stacks {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.arrow {
+		margin-top: 32px;
+	}
+
+	#projects,
+	#services {
+		padding-inline: 24px;
+	}
+
+	#projects {
+		padding-bottom: 80px;
+	}
+
+	#project-list {
+		width: 100%;
+		grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+	}
+
+	.project-card {
+		width: 100%;
+		height: auto;
+		min-height: 280px;
+	}
+
+	.service-list {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 80px;
+	}
+
+	.service-card {
+		width: min(100%, 400px);
+	}
+
+	#contact {
+		padding: 80px 24px;
+	}
+
+	.contact-list {
+		gap: 24px;
+	}
+
+	.contact-card {
+		width: min(100%, 400px);
+	}
+}
