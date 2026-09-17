@@ -2,22 +2,48 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 32px;
+  padding: 1.25rem 2rem;
 }
 
 .menu, .search{
   display: flex;
   justify-content: center;
-  gap: 8px;
-  font-size:16px;
+  gap: 0.5rem;
+  font-size:1rem;
   font-weight: 700;
 }
 #secondary-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 32px;
+  padding: 0.875rem 2rem;
   font: var(--p);
-  border-top: 1px solid var(--stroke-color);
-  border-bottom: 1px solid var(--stroke-color);
+  border-top: 0.0625rem solid var(--stroke-color);
+  border-bottom: 0.0625rem solid var(--stroke-color);
+}
+
+@media (max-width: 80em){
+  #primary-nav{
+    padding: 1rem 1.25rem;
+  }
+
+  .menu span,
+  .search span{
+    display: none;
+  }
+
+  #secondary-nav{
+    justify-content: flex-start;
+    gap: 1rem;
+    max-width: 100%;
+    overflow: hidden;
+    padding-inline: 1rem;
+    white-space: nowrap;
+    font-size: 0.625rem;
+    scrollbar-width: none;
+  }
+
+  #secondary-nav::-webkit-scrollbar{
+    display: none;
+  }
 }

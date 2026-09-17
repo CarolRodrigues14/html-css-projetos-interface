@@ -2,20 +2,26 @@
  font:var(--span);
  text-transform:uppercase;
 
- height:25px;
- padding:0 8px;
+ height:1.5625rem;
+ padding:0 0.5rem;
 
  background-color:var(--brand-color-dark);
- border-radius:8px;
+ border-radius:0.5rem;
 
  display:flex;
  align-items:center;
  justify-content:center;
+ max-width:100%;
+ min-width:0;
+ overflow:hidden;
+ text-overflow:ellipsis;
+ white-space:nowrap;
  
 
 }
 
 .see-all{
   display: flex;
-  gap: 8px;
+  gap: 0.5rem;
+  flex-shrink: 0;
 }

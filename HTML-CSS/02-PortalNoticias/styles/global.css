@@ -13,16 +13,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-img{
- display:block;
- max-width:100%;
+html{
+  width: 100%;
+  overflow-x: clip;
 }
-
-
 body{
+  width: 100%;
   background-color: var(--bg-color);
   color: var(--text-color-primary);
   font-family: var(--font-family);
+  overflow-x: hidden;
+  overflow-wrap: anywhere;
+}
+
+img{
+ display:block;
+ max-width:100%;
 }
 
 a{

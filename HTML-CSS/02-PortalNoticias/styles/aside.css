@@ -4,46 +4,51 @@
 }
 
 .aside img{
-  height: 280px;
+  height: 17.5rem;
   
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .aside header{
   display: flex;
   justify-content: space-between;
-  padding-top: 12px;
-  border-top: 1px solid var(--stroke-color);
+  padding-top: 0.75rem;
+  border-top: 0.0625rem solid var(--stroke-color);
 }
 
 .aside header h2, .aside header a{
   font: var(--p);
 }
 
+.aside header h2{
+  min-width: 0;
+}
+
 .aside header a img{
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .aside article{
   display: flex;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .relatad-article{
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
+  min-width: 0;
 
   font: var(--p);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .aside article .tag{
   
   position:static;
   align-self: flex-start;
-  height: 20px;
+  height: 1.25rem;
 }
 
 .aside article h4{
@@ -55,8 +60,17 @@
 }
 
 .aside article img{
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
+  flex-shrink: 0;
   object-fit: cover;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 80em){
+  .aside > .ad img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
 }

@@ -7,9 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
-  padding-top: 12px;
-  border-top: 1px solid var(--stroke-color);
+  margin-bottom: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 0.0625rem solid var(--stroke-color);
 
 }
 .ai h2, .ai a{
@@ -20,8 +20,8 @@
  
   display: flex;
   
-  gap: 16px;
-  margin-bottom: 38px;
+  gap: 1rem;
+  margin-bottom: 2.375rem;
 }
 .ai article .tag{
   
@@ -31,14 +31,16 @@
 .ai-text{
   display: flex;
   flex: 1;
+  min-width: 0;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
   
 }
 
 .ai article h3{
    display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 
@@ -46,6 +48,7 @@
 .ai article p{
    display: -webkit-box;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 
@@ -54,8 +57,30 @@
 }
 
 .ai article img{
-  width: 176px;
-  height: 176px;
+  width: 11rem;
+  height: 11rem;
   object-fit: cover;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 80em){
+  .ai{
+    margin-bottom: 3rem;
+  }
+
+  .ai header h2{
+    min-width: 0;
+  }
+
+  .ai article{
+    flex-direction: row-reverse;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .ai article img{
+    width: 4.5rem;
+    height: 4.5rem;
+    flex-shrink: 0;
+  }
 }
