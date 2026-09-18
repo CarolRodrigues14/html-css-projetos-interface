@@ -43,10 +43,7 @@ button{
   color: var(--text);
 }
 
-span{
-  font:var(--Span);
-  color: var(--text);
-}
+
 
 a{
   color: inherit;
