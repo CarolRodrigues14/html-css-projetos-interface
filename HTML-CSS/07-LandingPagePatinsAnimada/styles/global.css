@@ -27,3 +27,29 @@
 
 
 }
+
+h1{
+  font:var(--heading1);
+  color: var(--text);
+}
+
+h2{
+  font:var(--heading2);
+  color: var(--text);
+}
+
+button{
+  font:var(--Button);
+  color: var(--text);
+}
+
+span{
+  font:var(--Span);
+  color: var(--text);
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
