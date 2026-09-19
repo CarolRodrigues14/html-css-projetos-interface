@@ -96,7 +96,7 @@ Landing page que se adapta de desktop a mobile.
 ---
 
 ### 07 · Landing Page Patins Animada
-[![Preview Landing Page Animada](./assets/previews/07-patins-animada.gif)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/07-LandingPagePatinsAnimada/)
+[![Preview Landing Page Animada](./assets/previews/07-patins-animada.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/07-LandingPagePatinsAnimada/)
 
 Landing page com animações e transições que dão vida à interface.
 
