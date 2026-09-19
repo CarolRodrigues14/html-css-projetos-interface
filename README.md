@@ -36,7 +36,7 @@ Cada projeto foi pensado para praticar uma habilidade específica de front-end, 
 ## 🚀 Projetos
 
 ### 01 · Travelgram — Layout de viagens
-[![Preview Travelgram](./assets/previews/01-travelgram.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/01-Travelgram/)
+[![Preview Travelgram](./assets/previews/01-travelgram.png.jpeg)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/01-Travelgram/)
 
 Layout de viagens construído com foco em estrutura e alinhamento.
 
@@ -56,7 +56,7 @@ Página de notícias com hierarquia de conteúdo e organização em colunas.
 ---
 
 ### 03 · Portfólio Dev
-[![Preview Portfólio Dev](./assets/previews/03-portfolio-dev.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/03-PortfolioDev/)
+[![Preview Portfólio Dev](./assets/previews/03-portfolio-dev.png.jpeg)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/03-PortfolioDev/)
 
 Página de portfólio pessoal combinando as técnicas de layout aprendidas até aqui.
 
@@ -76,7 +76,7 @@ Formulário de matrícula com campos agrupados, labels e tipos de input adequado
 ---
 
 ### 05 · Formulário de Convite
-[![Preview Formulário de Convite](./assets/previews/05-formulario-convite.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/05-FormularioConvite/)
+[![Preview Formulário de Convite](./assets/previews/05-formulario-convite.png.jpeg)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/05-FormularioConvite/)
 
 Formulário de convite com layout dividido entre imagem e formulário.
 
@@ -85,8 +85,8 @@ Formulário de convite com layout dividido entre imagem e formulário.
 
 ---
 
-### 06 · Landing Page
-[![Preview Landing Page](./assets/previews/06-landing-page.gif)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/06-LandingPage/)
+### 06 · Landing Page de Produto
+[![Preview Landing Page](./assets/previews/06-landing-page.png.jpeg)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/06-LandingPage/)
 
 Landing page que se adapta de desktop a mobile.
 
