@@ -1,7 +1,7 @@
 header{
   max-width: 80rem;
   width: 100%;
-  padding: 1.25rem 2rem;
+  padding: 1.25rem 1.25rem;
   margin-inline: auto;
 
   display: flex;
@@ -46,4 +46,10 @@ header{
     border-radius: 50%;
   }
 
+}
+
+@media (min-width: 48em){
+  header{
+    padding-inline: 2rem;
+  }
 }
