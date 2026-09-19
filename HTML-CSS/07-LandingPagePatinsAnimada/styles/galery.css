@@ -93,6 +93,8 @@
 
 }
 
+}
+
 @keyframes img-appear {
   from{
     opacity: 0;
@@ -131,19 +133,19 @@
         height: 25rem;
       }
 
-      & figure:nth-child(1){
+      & > figure:nth-child(1){
         grid-area: A;
       }
 
-      & figure:nth-child(2){
+      & > figure:nth-child(2){
         grid-area: B;
       }
 
-      & figure:nth-child(3){
+      & > figure:nth-child(3){
         grid-area: C;
       }
 
-      & figure:nth-child(4){
+      & > figure:nth-child(4){
         grid-area: D;
       }
     }
