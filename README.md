@@ -36,72 +36,72 @@ Cada projeto foi pensado para praticar uma habilidade específica de front-end, 
 ## 🚀 Projetos
 
 ### 01 · Travelgram — Layout de viagens
-[![Preview Travelgram](./assets/previews/01-travelgram.png)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/01-Travelgram/)
+[![Preview Travelgram](./assets/previews/01-travelgram.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/01-Travelgram/)
 
 Layout de viagens construído com foco em estrutura e alinhamento.
 
 **Habilidades:** HTML semântico · Flexbox
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/01-Travelgram/) · 💻 [Código](./HTML-CSS/01-Travelgram)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/01-Travelgram/) · 💻 [Código](./HTML-CSS/01-Travelgram)
 
 ---
 
 ### 02 · Portal de Notícias
-[![Preview Portal de Notícias](./assets/previews/02-portal-noticias.png)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/02-PortalNoticias/)
+[![Preview Portal de Notícias](./assets/previews/02-portal-noticias.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/02-PortalNoticias/)
 
 Página de notícias com hierarquia de conteúdo e organização em colunas.
 
 **Habilidades:** HTML semântico · Grid
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/02-PortalNoticias/) · 💻 [Código](./HTML-CSS/02-PortalNoticias)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/02-PortalNoticias/) · 💻 [Código](./HTML-CSS/02-PortalNoticias)
 
 ---
 
 ### 03 · Portfólio Dev
-[![Preview Portfólio Dev](./assets/previews/03-portfolio-dev.png)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/03-PortfolioDev/)
+[![Preview Portfólio Dev](./assets/previews/03-portfolio-dev.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/03-PortfolioDev/)
 
 Página de portfólio pessoal combinando as técnicas de layout aprendidas até aqui.
 
 **Habilidades:** Flexbox · Grid · Composição de layout
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/03-PortfolioDev/) · 💻 [Código](./HTML-CSS/03-PortfolioDev)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/03-PortfolioDev/) · 💻 [Código](./HTML-CSS/03-PortfolioDev)
 
 ---
 
 ### 04 · Formulário de Matrícula
-[![Preview Formulário de Matrícula](./assets/previews/04-formulario-matricula.png)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/04-FormularioMatricula/)
+[![Preview Formulário de Matrícula](./assets/previews/04-formulario-matricula.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/04-FormularioMatricula/)
 
 Formulário de matrícula com campos agrupados, labels e tipos de input adequados.
 
 **Habilidades:** Formulários · Validação nativa · Acessibilidade
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/04-FormularioMatricula/) · 💻 [Código](./HTML-CSS/04-FormularioMatricula)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/04-FormularioMatricula/) · 💻 [Código](./HTML-CSS/04-FormularioMatricula)
 
 ---
 
 ### 05 · Formulário de Convite
-[![Preview Formulário de Convite](./assets/previews/05-formulario-convite.png)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/05-FormularioConvite/)
+[![Preview Formulário de Convite](./assets/previews/05-formulario-convite.png)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/05-FormularioConvite/)
 
 Formulário de convite com layout dividido entre imagem e formulário.
 
 **Habilidades:** Formulários · Flexbox · Grid
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/05-FormularioConvite/) · 💻 [Código](./HTML-CSS/05-FormularioConvite)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/05-FormularioConvite/) · 💻 [Código](./HTML-CSS/05-FormularioConvite)
 
 ---
 
 ### 06 · Landing Page
-[![Preview Landing Page](./assets/previews/06-landing-page.gif)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/06-LandingPage/)
+[![Preview Landing Page](./assets/previews/06-landing-page.gif)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/06-LandingPage/)
 
 Landing page que se adapta de desktop a mobile.
 
 **Habilidades:** Responsividade · Media queries · Unidades relativas
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/06-LandingPage/) · 💻 [Código](./HTML-CSS/06-LandingPage)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/06-LandingPage/) · 💻 [Código](./HTML-CSS/06-LandingPage)
 
 ---
 
 ### 07 · Landing Page Patins Animada
-[![Preview Landing Page Animada](./assets/previews/07-patins-animada.gif)](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/07-LandingPagePatinsAnimada/)
+[![Preview Landing Page Animada](./assets/previews/07-patins-animada.gif)](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/07-LandingPagePatinsAnimada/)
 
 Landing page com animações e transições que dão vida à interface.
 
 **Habilidades:** Animações · Transições · Keyframes
-🔗 [Ver online](https://carolrodrigues14.github.io/rocketseat-fullstack/HTML-CSS/07-LandingPagePatinsAnimada/) · 💻 [Código](./HTML-CSS/07-LandingPagePatinsAnimada)
+🔗 [Ver online](https://carolrodrigues14.github.io/html-css-projetos-interface/HTML-CSS/07-LandingPagePatinsAnimada/) · 💻 [Código](./HTML-CSS/07-LandingPagePatinsAnimada)
 
 ---
 
